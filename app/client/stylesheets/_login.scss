@@ -1,9 +1,37 @@
 #login {
   height: 100%;
   width: 100%;
-  background-color: $login-bg-color;
-  background: $login-bg; 
-  background-size: cover;
+
+  .background-container {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+    .stripe-0 {
+      height: 49%;
+      background: #efefef;
+    }
+
+    .stripe-1 {
+      height: 35%;
+      background: #f9c00c;
+    }
+    
+    .stripe-2 {
+      height: 8%;
+      background: #00b9f1;
+    }
+    
+    .stripe-3 {
+      height: 5%;
+      background: #7200da;
+    }
+    
+    .stripe-4 {
+      height: 3%;
+      background: #f9320c;
+    }
+  }
 
   > .container {
     position: relative;
@@ -29,10 +57,10 @@
       .button {
         color: white;
         &.login {
-          background: $login-color;
+          background: #f9c00c;
         }
         &.register {
-          background: $register-color
+          background: #00b9f1;
         }
       }
 

@@ -4,9 +4,9 @@
  * tertiary (default blue): waitlist/declined dashboard status
  */
 
-$primary: #e76482;
-$secondary: #473899;
-$tertiary: #4c82cc;
+$primary: darken(rgb(114, 0, 218), 13%);
+$secondary: darken(rgb(0, 185, 241), 8%);
+$tertiary: darken(rgb(249, 192, 12), 5%);
 
 /** ASSET URLS
  * login-bg: image for login splash page 
