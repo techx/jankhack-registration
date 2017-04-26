@@ -79,7 +79,7 @@ controller.sendVerificationEmail = function(email, token, callback) {
 
   var options = {
     to: email,
-    subject: "[HACKMIT] - Verify your email"
+    subject: "[JANKHACK] - Verify your email"
   };
 
   var locals = {
