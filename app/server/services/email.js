@@ -79,7 +79,7 @@ controller.sendVerificationEmail = function(email, token, callback) {
 
   var options = {
     to: email,
-    subject: "[JANKHACK] - Verify your email"
+    subject: "[HACKATHON] - Verify your email"
   };
 
   var locals = {
@@ -116,7 +116,7 @@ controller.sendPasswordResetEmail = function(email, token, callback) {
 
   var options = {
     to: email,
-    subject: "[HACKMIT] - Password reset requested!"
+    subject: "[HACKATHON] - Password reset requested!"
   };
 
   var locals = {
@@ -157,7 +157,7 @@ controller.sendPasswordChangedEmail = function(email, callback){
 
   var options = {
     to: email,
-    subject: "[HACKMIT] - Your password has been changed!"
+    subject: "[HACKATHON] - Your password has been changed!"
   };
 
   var locals = {
